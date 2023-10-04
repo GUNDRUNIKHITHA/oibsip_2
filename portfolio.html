@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#about {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#portfolio {
+    background-color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.portfolio-item {
+    flex: 0 0 calc(33.33% - 30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    height: 170px;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+    background-color: #f2f2f2;
+}
+
+#contact {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.m:hover{
+    opacity: 0.5;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="hover">
+                <li class="m"><a href="#about">About</a></li>
+                <li class="m"><a href="#portfolio">Portfolio</a></li>
+                <li class="m"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="about-container">
+            <h1>GUNDRU NIKHITHA</h1>
+            <h2>Student</h2>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="portfolio-container">
+            <div class="portfolio-item">
+                <h3>Skills</h3>
+                <p>Good at Java programming</p>
+                <p>good at HTML and CSS</p>
+            </div>
+
+            <div class="portfolio-item">
+                <h3>Certfications</h3>
+                <p><h4>Nptel online course on:</h4></p>
+                <ul>
+                    <li>the joy of computing using python</li>
+                    <li>programming in java</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="portfolio-container">
+            <div class="portfolio-item">
+                <h3>Personal Details</h3>
+                <p>Father Name:Gundru Venu</p>
+                <p>Date of birth:18-01-2004</p>
+                <p>Gender:Female</p>
+            </div>
+
+            <div class="portfolio-item">
+                    <h3>Education Qulification</h3>
+                    <p>10 <sup>th</sup>passed form board of secondary education</p>
+                    <p>12 <sup>th</sup>passed from board of intermidate education</p>
+                    <p>pursing B.Tech from vishnu institute of technology</p>
+            </div>
+
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to send me an email at <a href="mailto:21pa1a0558@vishnu.edu.in">21pa1a0558@vishnu.edu.in</a>.</p>
+            <p>Github: <a href="https://github.com/GUNDRUNIKHITHA" style="color: blue;">https://github.com/GUNDRUNIKHITHA</a></p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2023 GUNDRU NIKHITHA
+    </footer>
+</body>
+</html>
